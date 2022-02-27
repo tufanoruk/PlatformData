@@ -1,0 +1,9 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.label {
+	font-size: 12px;
+	padding: 5px;
+	line-height: 30px;
+}
