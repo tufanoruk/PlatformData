@@ -25,7 +25,7 @@ You can use any mqtt broker. I used opensource [mosquitto](https://mosquitto.org
 
 topic | value | note
 ---|---|---|
-/[src]/pos/prop/data |  {'datatime': time from epoch, 'longitude' : 0..180EW, 'latitude' : 0..90NS} | platform position in latitude and longitude  
+/[src]/pos/prop/data |  {'datetime': time from epoch, 'longitude' : 0..180EW, 'latitude' : 0..90NS} | platform position in latitude and longitude  
 /[src]/crsspd/prop/data | {'datatime': time from epoch, 'course' : 0..360, 'speed' : >0 } | platform course and speed
 /[src]/platform/data | {latitude": 0.0, "longitude": 0.0, "course": 0.0, "speed": 0.0, "timeval": time from epoch | platform information calculated by the provider  
 /[src]/platform/state | 'Operational' or 'Connected' or 'Offline' or 'Error' | platform data provider state
